@@ -24,7 +24,9 @@ Then fetch the source for this project from github:
 $  git clone git://github.com/rajkrish/libernix-redmine-ecoblue.git
 </pre>
 
-This would get you a @redmine/public/themes/libernix-redmine-ecoblue/stylesheets@ and @redmine/public/themes/libernix-redmine-ecoblue/images@ folders, which contain the CSS and PNG image (logo) respectively.
+Now you would have a newly created folder called @libernix-redmine-ecoblue@, 2 others underneath it as follows:
+* @redmine/public/themes/libernix-redmine-ecoblue/stylesheets/@ - contains the CSS stylesheets,
+* @redmine/public/themes/libernix-redmine-ecoblue/images/@ - contains PNG images/icons for logo purposes.
 
 In case you are not using the another login account (e.g. root), do not forget to change the file ownership and permissions to the server's instance:
 <pre>
@@ -43,17 +45,17 @@ h2.  Screenshots
 
 h2.  Files
 
-*  *applicationl.css*  -- All the modifications to the default Redmine styles are provided in this file.
-*  *<logo>.png*  --  The logo that is associated with the project title area.
+*  *applicationl.css  ➛*  All the modifications to the default Redmine styles are provided in this file.
+*  *someicon.png  ➛*  The logo that is associated with the project title area.
 
 
 h2.  Testing
 
 Tested with the following web-browsers:
-*  *Konqueror (KHTML engine)* -  Tested on Konqueror 4.3 on Fedora Linux 12.
-*  *Rekonq (Webkit engine)*  -  Tested with Rekonq 0.2.0 on Fedora Linux 12.
-*  *Firefox (Gecko engine)*  -  Tested with Firefox 3.5.5 on Fedora Linux 12.
-*  *Redmine* -- Tested with Redmine trunk (svn#3095).
+*  *Konqueror (KHTML engine)  ➛*  Tested on Konqueror 4.3 on Fedora Linux 12.
+*  *Rekonq (Webkit engine)  ➛*  Tested with Rekonq 0.2.0 on Fedora Linux 12.
+*  *Firefox (Gecko engine)  ➛*  Tested with Firefox 3.5.5 on Fedora Linux 12.
+*  *Redmine  ➛*  Tested with Redmine trunk (svn#3095).
 
 h2.  Known issues
 
@@ -65,13 +67,19 @@ h2.  Known issues
 
 h2.  Customization
 
-*  *Logo*  - Feel free to change the logo image with your own.  If the logo file has a different filename than the one that is provided, you might need to update the CSS stylsheet(s) that reference it.  The maximum height of the logo image should not exceed 66 pixels (for correct appearance).
-*  *Stylesheet* --  At this time there is just 1 stylesheet that contains all the formatting rules.  Feel free to update it to suite your design goals for your custom Redmine installation.
+*  *Logo  ➛*  Feel free to remove the included logo with an image or icon of your own own.  If the logo file has a different filename than the one that is provided, you might need to update the CSS stylsheet(s) that reference it.  The maximum height of the logo image should not exceed 66 pixels (for correct appearance).
+*  *Stylesheet  ➛*  At this time there is just 1 stylesheet that contains all the formatting rules.  Feel free to update it to suite your design goals for your custom Redmine installation.
 
 h2.  Feedback/Issues/Patches
 
 * Feel free to report all issues on the "libernix-redmine-ecoblue":http://github.com/rajkrish/libernix-redmine-ecoblue  Github project site for this package.  
 * For all the UI related issues, a link to the screenshot(s) if provided, would be much appreciated.
+
+h2.  License
+
+This project and all the associated source files are available under *GNU LGPL v3.0* license, unless specified otherwise.
+
+The images/icons were obtained from "OpenClipart":http://www.openclipart.org/ and it may require a different license.  Please check  the "OpenClipart":http://www.openclipart.org/  website for details.
 
 
 
