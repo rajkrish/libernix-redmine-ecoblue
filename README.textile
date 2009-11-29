@@ -6,7 +6,7 @@ The @libernix-redmine-ecoblue@ project aims to provide a professional looking bl
 
 h2. Features
 
-*  *Borders  ➛*  Borders are rounded with CSS3 @ -[moz|khtml|webkit]-border-radius @ attributes. Border thickness is 2 pixels in most outer regions, and 1 pixel inside regions.  For browsers that do not support @ -border-radius @, the feature whould hopefully degrade gracefully.
+*  *Borders  ➛*  Borders are rounded with CSS3 @-[moz|khtml|webkit]-border-radius@ attributes. Border thickness is 2 pixels in most outer regions, and 1 pixel inside regions.  For browsers that do not support @ -border-radius @, the feature whould hopefully degrade gracefully.
 *  *Logo ➛* A logo is attached to the left of the project title area.  
 *  *Colors ➛* The colors have been chosen to create a "sharp" appearance with strongly delineated regions of text (using borders).  I believe this would make using Redmine more comfortable during long hours of usage on a daily basis, and also reduce strain on the eyes.
 *  *Forms ➛* The formatting and display of forms has been kept untouched as of now. 
